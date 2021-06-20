@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box; /*метод вычитания ширины*/
+}
+
+.container{
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 0 10px; 
+}
+
+.header__inner{
+    display: flex; /*выстраивание в ряд*/
+    justify-content: space-between; /*раскидывает блоки по сторонам*/
+    align-items: center; /*выравнивание по центру*/
+}
+.menu__list{
+    display: flex;
+
+}
+
+.menu__list-item +.menu__list-item{ /*растояние между символами, значение для всех кроме 1*/
+  margin-left: 24px;
+}
+
+.menu__list-link{
+
+}
